@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/smooth-scroll', function () {
+    return view('smooth-scroll');
+});
