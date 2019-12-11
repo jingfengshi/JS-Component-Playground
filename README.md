@@ -32,3 +32,9 @@
                 postCss: [ tailwindcss() ],
             })
             
+
+
+
+3、根据不同情况显示不同的按钮
+     // 安装 in-viewport 插件
+     npm install in-viewport

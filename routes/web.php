@@ -20,3 +20,7 @@ Route::get('/smooth-scroll', function () {
 Route::get('/context-menu', function () {
     return view('context-menu');
 });
+
+Route::get('/conditional-visibility', function () {
+    return view('conditional-visibility');
+});
