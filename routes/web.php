@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/smooth-scroll', function () {
     return view('smooth-scroll');
 });
+Route::get('/context-menu', function () {
+    return view('context-menu');
+});

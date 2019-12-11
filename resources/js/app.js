@@ -15,11 +15,13 @@ window.Vue = require('vue');
  *
  * Eg. ./components/ScrollLink.vue -> <example-component></example-component>
  */
-
+import ScrollLink from './components/ScrollLink'
+import Dropdown from './components/DropDown'
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('scroll-link', require('./components/ScrollLink.vue').default);
+Vue.component('scroll-link', ScrollLink);
+Vue.component('drop-down', Dropdown);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
