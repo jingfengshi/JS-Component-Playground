@@ -24,3 +24,8 @@ Route::get('/context-menu', function () {
 Route::get('/conditional-visibility', function () {
     return view('conditional-visibility');
 });
+
+
+Route::get('/modal', function () {
+    return view('modal');
+});

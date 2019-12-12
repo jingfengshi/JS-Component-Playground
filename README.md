@@ -10,9 +10,9 @@
 
 # 功能介绍
 
-1、上下滑动Vue组件完成 scroll-link
+1、上下滑动Vue组件完成  路由scroll-link
 
-2、context-menu
+2、context-menu  路由 context-menu
     
     //安装tailwindcss
     npm install tailwindcss
@@ -35,6 +35,10 @@
 
 
 
-3、根据不同情况显示不同的按钮
-     // 安装 in-viewport 插件
+3、根据不同情况显示不同的按钮  
+    
+    // 安装 in-viewport 插件
      npm install in-viewport
+
+
+4、模态框   路由:modal

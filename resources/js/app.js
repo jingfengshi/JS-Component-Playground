@@ -6,8 +6,13 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
 
+
+
+window.Vue = require('vue');
+import Modal from './plugins/modal/ModalPlugin'
+
+Vue.use(Modal);
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -18,6 +23,7 @@ window.Vue = require('vue');
 import ScrollLink from './components/ScrollLink'
 import Dropdown from './components/DropDown'
 import Visiable from './components/Visiable'
+
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
